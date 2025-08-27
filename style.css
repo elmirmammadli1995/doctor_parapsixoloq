@@ -1,1 +1,30 @@
-@im;/*# sourceMappingURL=style.css.map */
+body {
+  color: black;
+}
+
+#header {
+  color: #ffffff;
+}
+#header .menu {
+  padding: 15px 0;
+  height: 80px;
+  background-color: #212529;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+#header .menu .btn {
+  color: #ffffff;
+}
+#header .menu .imgbox {
+  width: 78px;
+  height: auto;
+  margin-left: 20px;
+}
+#header .menu .imgbox img {
+  width: 100%;
+}
+#header .menu nav a {
+  margin: 0 15px;
+}/*# sourceMappingURL=style.css.map */
