@@ -28,4 +28,11 @@ body {
 }
 #header .menu nav a {
   margin: 0 15px;
+}
+
+#imanli {
+  padding: 50px 0;
+}
+#imanli .imgbox {
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */
