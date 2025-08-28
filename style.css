@@ -1,5 +1,6 @@
 body {
-  background-color: #a0f1bd;
+  background-color: #f2f8fe;
+  font-family: "Roboto", sans-serif;
   color: #11182b;
 }
 
@@ -33,6 +34,15 @@ body {
 #imanli {
   padding: 50px 0;
 }
-#imanli .box {
-  width: 100px;
+#imanli .textbox h1 {
+  color: #090101;
+  font-size: 30px;
+  font-weight: 700;
+}
+#imanli .imgbox {
+  width: 450px;
+}
+#imanli .imgbox img {
+  max-width: 100%;
+  border-radius: 50px;
 }/*# sourceMappingURL=style.css.map */
