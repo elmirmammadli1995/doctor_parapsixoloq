@@ -65,4 +65,12 @@ body {
 #imanli .imgbox img {
   max-width: 100%;
   border-radius: 50px;
+}
+
+#services {
+  padding: 50px 0;
+}
+#services .textbox h1 {
+  font-size: 30px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
