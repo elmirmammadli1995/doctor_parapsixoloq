@@ -71,6 +71,21 @@ body {
   padding: 50px 0;
 }
 #services .textbox h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
+}
+#services .box {
+  width: 200px;
+  height: 200px;
+}
+#services .box .minibox {
+  width: 100%;
+  margin: 25px 0;
+  text-align: center;
+}
+#services .box .minibox p {
+  font-size: 17px;
+  padding: 30px;
+  line-height: 1.2;
+  background-color: #b4ffc3;
 }/*# sourceMappingURL=style.css.map */
