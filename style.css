@@ -97,11 +97,19 @@ body {
   border-radius: 20px;
 }
 #services .infobox {
-  text-align: center;
   width: 250px;
   height: 250px;
-  padding: 35px 15px;
+  margin: 15px;
+  padding: 15px 5px;
+  text-align: center;
   border-radius: 30px;
   background-color: #f9f5f5;
+}
+#services .infobox h2 {
+  font-size: 18px;
+  font-weight: 700;
   margin: 15px;
+}
+#services .infobox p {
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
