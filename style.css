@@ -95,4 +95,13 @@ body {
   line-height: 1.2;
   background-color: #7bd9fb;
   border-radius: 20px;
+}
+#services .infobox {
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  padding: 35px 15px;
+  border-radius: 30px;
+  background-color: #f9f5f5;
+  margin: 15px;
 }/*# sourceMappingURL=style.css.map */
