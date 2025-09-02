@@ -119,4 +119,15 @@ body {
 #services .infobox p {
   font-size: 16px;
   line-height: 1.5;
+}
+
+#contact {
+  background-color: #130b30;
+}
+#contact .textbox h1 {
+  color: #fdfdfd;
+  font-size: 20px;
+}
+#contact .box h3, #contact .box h4 {
+  color: #fdfdfd;
 }/*# sourceMappingURL=style.css.map */
