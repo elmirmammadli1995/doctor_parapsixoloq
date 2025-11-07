@@ -212,16 +212,16 @@ header .navbar .content {
   font-weight: 500;
 }
 
-#rubrics .video-section {
+#rubrics.video-section {
   background-color: #f8f9fa;
 }
-#rubrics .video-section h2 {
+#rubrics.video-section h2 {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   color: #212529;
 }
-#rubrics .video-section .text-muted {
+#rubrics.video-section .text-muted {
   font-size: 17px;
   font-weight: 400;
 }
