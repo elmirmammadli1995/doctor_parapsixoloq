@@ -272,6 +272,7 @@ header .navbar .content {
 }
 @media (max-width: 576px) {
   #services .card {
+    justify-content: center;
     width: 90%;
     margin: 15px 0;
   }
@@ -280,7 +281,7 @@ header .navbar .content {
     height: auto;
   }
   #services .card h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
   #services .card p {
     font-size: 17px;
