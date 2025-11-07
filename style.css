@@ -265,6 +265,27 @@ header .navbar .content {
     font-size: 13px;
   }
 }
+@media (max-width: 768px) {
+  #services .card-container {
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  #services .card {
+    width: 90%;
+    margin: 15px 0;
+  }
+  #services .card img {
+    width: 100%;
+    height: auto;
+  }
+  #services .card h2 {
+    font-size: 20px;
+  }
+  #services .card p {
+    font-size: 17px;
+  }
+}
 
 #rubrics.video-section {
   background-color: #f8f9fa;
