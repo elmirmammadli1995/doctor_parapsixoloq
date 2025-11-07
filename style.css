@@ -215,8 +215,8 @@ header .navbar .content {
 #rubrics .video-section {
   background-color: #f8f9fa;
 }
-#rubrics .video-section .section-title {
-  font-size: 35px;
+#rubrics .video-section h2 {
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   color: #212529;
