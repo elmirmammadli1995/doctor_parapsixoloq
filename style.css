@@ -470,7 +470,7 @@ header .navbar .content {
     text-align: center;
   }
   #rubrics .section-header h2 {
-    font-size: 10px;
+    font-size: 14px;
   }
   #rubrics .section-header p {
     font-size: 10px;
@@ -490,26 +490,85 @@ header .navbar .content {
 }
 
 footer {
-  padding-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   background-color: #0d0101;
+  color: #fffefe;
+}
+footer .box {
+  width: 100%;
 }
 footer .box h2 {
   color: #fffefe;
-  font-size: 25px;
-  margin-bottom: 17px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+@media (max-width: 768px) {
+  footer .box h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
 }
 footer .box .box-two h3 {
-  color: #fffefe;
-  font-size: 19px;
-  margin-bottom: 6px;
+  color: #ffcbcb;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  footer .box .box-two h3 {
+    font-size: 16px;
+  }
 }
 footer .box .box-two h4 {
-  color: #fffefe;
+  margin-bottom: 20px;
   font-size: 16px;
-  margin-bottom: 16px;
 }
-footer p {
-  font-size: 18px;
+@media (max-width: 768px) {
+  footer .box .box-two h4 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+}
+footer .box .box-two h4 a {
   color: #fffefe;
-  margin: 18px 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+footer .box .box-two h4 a:hover {
+  color: #ffc107;
+}
+footer .social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: #fffefe;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+footer .social-icons a:hover {
+  background-color: #fffefe;
+  color: #0d0101;
+  transform: translateY(-3px);
+}
+footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
+  padding-top: 20px;
+}
+footer .footer-bottom p {
+  font-size: 16px;
+  color: rgba(255, 254, 254, 0.7);
+  margin: 0;
+}
+@media (max-width: 576px) {
+  footer .footer-bottom p {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=style.css.map */
