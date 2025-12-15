@@ -390,16 +390,16 @@ header .navbar .content {
   }
 }
 
-#rubrics.video-section {
+#rubrics.video-section .section-header {
   background-color: #f8f9fa;
 }
-#rubrics.video-section h2 {
+#rubrics.video-section .section-header h2 {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   color: #212529;
 }
-#rubrics.video-section .text-muted {
+#rubrics.video-section .section-header .text-muted {
   font-size: 17px;
   font-weight: 400;
 }
@@ -464,6 +464,29 @@ header .navbar .content {
 #rubrics .video-card .ratio {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
+}
+@media (max-width: 576px) {
+  #rubrics .section-header {
+    text-align: center;
+  }
+  #rubrics .section-header h2 {
+    font-size: 10px;
+  }
+  #rubrics .section-header p {
+    font-size: 10px;
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  #rubrics .section-header h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+  }
+  #rubrics .section-header p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    width: 100%;
+  }
 }
 
 footer {
