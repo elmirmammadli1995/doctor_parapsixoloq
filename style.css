@@ -1,4 +1,4 @@
-header .navbar {
+#header .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,31 +10,31 @@ header .navbar {
   left: 0;
   z-index: 1;
 }
-header .navbar .brand-title {
+#header .navbar .brand-title {
   margin-left: 40px;
   font-size: 1.5rem;
   color: white;
   text-decoration: none;
 }
-header .navbar .navbar-links ul {
+#header .navbar .navbar-links ul {
   display: flex;
   margin: 0;
   padding: 0;
 }
-header .navbar .navbar-links li {
+#header .navbar .navbar-links li {
   list-style: none;
 }
-header .navbar .navbar-links li a {
+#header .navbar .navbar-links li a {
   font-size: 18px;
   color: white;
   text-decoration: none;
   padding: 1rem;
   display: block;
 }
-header .navbar .navbar-links li a:hover {
+#header .navbar .navbar-links li a:hover {
   background-color: #555;
 }
-header .navbar .toggle-button {
+#header .navbar .toggle-button {
   position: absolute;
   top: 1.25rem;
   right: 1rem;
@@ -44,40 +44,68 @@ header .navbar .toggle-button {
   width: 30px;
   height: 21px;
 }
-header .navbar .toggle-button .bar {
+#header .navbar .toggle-button .bar {
   height: 3px;
   width: 100%;
   background-color: white;
   border-radius: 10px;
 }
-header .navbar .content {
+#header .navbar .content {
   padding: 20px;
   text-align: center;
 }
 @media (max-width: 768px) {
-  header .toggle-button {
-    display: flex;
+  #header header .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
   }
-  header .navbar-links {
+  #header header .navbar .brand-title {
+    margin-left: 10px;
+  }
+  #header header .navbar .toggle-button {
+    display: flex;
+    top: 1.5rem;
+  }
+  #header header .navbar .navbar-links {
     display: none;
     width: 100%;
   }
-  header .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+  #header header .navbar .navbar-links.active {
+    display: flex;
   }
-  header .navbar-links ul {
+  #header header .navbar .navbar-links ul {
     width: 100%;
     flex-direction: column;
   }
-  header .navbar-links li {
+  #header header .navbar .navbar-links li {
     text-align: center;
   }
-  header .navbar-links li a {
-    padding: 10px 0;
+  #header header .navbar .navbar-links li a {
+    padding: 15px 0;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
-  header .navbar-links.active {
-    display: flex;
+  #header header .navbar .navbar-links li a:hover {
+    background-color: #444;
+  }
+}
+@media (max-width: 576px) {
+  #header header .navbar {
+    padding: 10px 15px;
+  }
+  #header header .navbar .brand-title {
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
+  #header header .navbar .toggle-button {
+    right: 15px;
+    width: 25px;
+    height: 18px;
+  }
+  #header header .navbar .navbar-links li a {
+    font-size: 16px;
   }
 }
 
