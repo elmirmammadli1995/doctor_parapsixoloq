@@ -24,28 +24,22 @@
 <body>
 
     <header id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="navbar">
-                        <a href="#" class="brand-title">Şahsəddin İmanlı</a>
-                        <a href="#" class="toggle-button">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                        </a>
-                        <div class="navbar-links">
-                            <ul>
-                                <li><a href="#about">Haqqımda</a></li>
-                                <li><a href="#services">Xidmətlər</a></li>
-                                <li><a href="#rubrics">Video rubrikalar</a></li>
-                                <li><a href="#contact">Bizimlə əlaqə</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+        <nav class="navbar">
+            <a href="#" class="brand-title">Şahsəddin İmanlı</a>
+            <a href="#" class="toggle-button" id="mobile-menu-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links" id="navbar-links-container">
+                <ul>
+                    <li><a href="#about">Haqqımda</a></li>
+                    <li><a href="#services">Xidmətlər</a></li>
+                    <li><a href="#rubrics">Video rubrikalar</a></li>
+                    <li><a href="#contact">Bizimlə əlaqə</a></li>
+                </ul>
             </div>
-        </div>
+        </nav>
     </header>
 
     <main>
@@ -58,8 +52,8 @@
                             <h2>parapsixoloq</h2>
                             <h1>Şahsəddin İmanlı</h1>
                             <hr>
-                            <p> 
-                                Mən, sizə daxili harmoniyanı tapmaqda və həyat keyfiyyətinizi 
+                            <p>
+                                Mən, sizə daxili harmoniyanı tapmaqda və həyat keyfiyyətinizi
                                 artırmaqda kömək etmək üçün buradayam. Uzun illərin təcrübəsi
                                 ilə mənəvi və psixoloji problemlərinizin həllinə dəstək oluram.
                             </p>
@@ -464,14 +458,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> AOS.init(); </script>
     <script> AOS.init({ duration: 800, once: false, offset: 120, });</script>
-    <script>
-        const toggleButton = document.getElementsByClassName('toggle-button')[0];
-        const navbarLinks = document.getElementsByClassName('navbar-links')[0];
-
-        toggleButton.addEventListener('click', () => {
-            navbarLinks.classList.toggle('active');
-        });
-    </script>
 </body>
 
 </html>
